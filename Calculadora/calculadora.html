@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="calculadora.css">
+</head>
+<body>
+    <div class="calculadora">
+        <h1 class="titulo">Minha Calculadora</h1>
+
+        <p>Primeiro Número</p>
+        <input type="number" id="v1">
+        <p>Segundo Número</p>
+        <input type="number" id="v2">
+        <br>
+        <br>
+        <button onclick="somar()">+</button>
+        <button onclick="subtrair()">-</button>
+        <button onclick="multiplicar()">X</button>
+        <button onclick="dividir()">/</button>
+        <br>
+        <p>Resultado: <span></span></p>
+        <button onclick="limpar()">C</button>
+        <script src="calculadora.js"></script>
+    </div>
+    <h2>&copy Luis Henrique Custódio Mendes</h2>
+</body>
+</html>

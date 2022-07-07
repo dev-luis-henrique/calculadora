@@ -1,0 +1,57 @@
+body {
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #CCCCCC;
+}
+
+.titulo {
+    font-size: 44px;
+}
+
+.calculadora {
+    text-align: center;
+    width: 500px;
+    margin: 50px auto;
+    border: 2px solid black;
+    padding-bottom: 20px;
+}
+
+p {
+    font-size: 20px;
+}
+
+input {
+    height: 30px;
+    background: transparent;
+    border-radius: 10px;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+}
+
+button {
+    font-size: 15px;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+}
+
+span {
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+}
+
+@media screen and (max-width: 480px){
+    .calculadora {
+        width: 90%;
+    }
+}
